@@ -1,0 +1,25 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source code (force LF for cross-platform consistency in diffs)
+*.cs text diff=csharp
+*.csproj text
+*.sln text
+*.md text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+
+# Windows-specific files (force CRLF)
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files
+*.mdb binary
+*.accdb binary
+*.exe binary
+*.dll binary
+*.pdb binary
+*.pfx binary
